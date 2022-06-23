@@ -128,6 +128,10 @@ section .content p {
   background-color: var(--brand-dark);
 }
 
+.button-404 {
+  align-items: center;
+}
+
 .social-links {
   display: flex;
   align-items: center;
