@@ -509,10 +509,6 @@ footer .social-links {
     grid-area: B;
   }
 
-  .col-c {
-    grid-template-columns: ;
-  }
-
   section {
     padding-block: 16rem;
   }
