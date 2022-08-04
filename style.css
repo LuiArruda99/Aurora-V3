@@ -509,6 +509,15 @@ footer .social-links {
     grid-area: B;
   }
 
+  .col-c {
+    position: relative;
+    text-align: center;
+    display: -webkit-flex;
+    display: flex;
+    align-items: flex-end;
+    width: min(30rem, 100%);
+  }
+
   section {
     padding-block: 16rem;
   }
@@ -737,7 +746,7 @@ footer .social-links {
 
   /*=== FOOTER =================================*/
   footer {
-    padding-block: 8rem;
+    padding-block: 1rem;
   }
 
   footer .wrapper {
@@ -756,5 +765,6 @@ footer .social-links {
 
   footer p {
     margin-bottom: 0;
+    text-align: center;
   }
 }
