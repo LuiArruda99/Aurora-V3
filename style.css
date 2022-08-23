@@ -765,6 +765,7 @@ footer .social-links {
 
   footer p {
     margin-bottom: 0;
+    align-content: center;
     text-align: center;
   }
 }
