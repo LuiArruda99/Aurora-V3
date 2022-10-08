@@ -1,0 +1,123 @@
+/*=== GERAL =================================*/
+* {
+  margin: 0;
+
+  box-sizing: border-box;
+}
+
+:root {
+  --hue: 190;
+  --primary-color: hsl(148, 40%, 51%);
+  --headline: hsl(0, 0%, 100%);
+  --paragraph: hsl(0, 0%, 60%);
+  --gradient-color: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(90deg, #9572fc 0%, #43e7ad 50.52%, #e2d45c 100%);
+  --dark-theme: hsl(0, 0%, 10%);
+
+  --brand-beige: hsl(0, 0%, 15%);
+  --brand-light: hsl(calc(var(--hue) - 22), 23%, 89%);
+  --brand-light-2: hsl(calc(var(--hue) + 10), 14%, 97%);
+  --brand-dark: hsl(var(--hue), 100%, 14%);
+
+  --bg-dark: hsl(0, 0%, 10%);
+
+  font-size: 74%; /* 1rem = 10px */
+
+  --nav-height: 7.2rem;
+}
+
+html {
+  /* chrome://flags/#smooth-scrolling */
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Exo', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+
+  background-color: #181818;
+}
+
+div .row {
+  display: inline-flex;
+  flex-direction: row;
+  gap: 3.7rem;
+  padding: 1.5rem;
+  text-align: center;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+div .label {
+  width: 15rem;
+  height: 15rem;
+}
+.wrapper {
+  width: min(50rem, 100%);
+  align-items: center;
+  padding-inline: 2.4rem;
+}
+
+button {
+  background: var(--gradient-color);
+
+  border: none;
+  border-radius: 1rem;
+  margin-inline-start: 45rem;
+  margin-top: 40px;
+
+  padding: 1.6rem 3.2rem;
+
+  width: max-content;
+
+  color: black;
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-transform: uppercase;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+
+  text-decoration: none;
+
+  transition: background 200ms;
+}
+
+button:hover {
+  background-color: var(--brand-dark);
+}
+
+input {
+  padding: 8px 16px;
+  border: none;
+  color: whitesmoke;
+  border-radius: 1rem;
+  background-color: #5c5c5c;
+}
+
+p {
+  color: whitesmoke;
+
+  font-size: 2rem;
+  padding-left: 45rem;
+  width: max-content;
+}
+
+#result.col-md-2.offset-md-5 .text-danger {
+  color: #e9e244;
+}
+
+#result.col-md-2.offset-md-5 .text-success {
+  color: var(--primary-color);
+}

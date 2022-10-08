@@ -1,36 +1,137 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aurora</title>
-
-    <link rel="stylesheet" href="./style.css" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap"
       rel="stylesheet"
     />
 
-    <body>
-      <section id="404">
-  
-            <header>
-              <p>Ainda estou passando por ajustes internos. O beta público estará disponível em breve.</p>
-            </header>
-  
-           
-  
-          <div class="col-b">
-            <img
-              src="./assets/404.png"
-              alt="ícone de erro 404"
-            />
-          </div>
-        </div><a class="button-404" href="index.html">Voltar para a Home</a>
-      </section>
-    </body>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aurora</title>
+    <link rel="icon" type="image/png" href="./assets/favicon.png" />
+    <link rel="stylesheet" href="./styles-app.css" />
   </head>
+  <!--
+  <header>
+    <div>
+      <a class="button" href="app.html"> Home </a>
+    </div>
+  </header>
+-->
+  <body>
+    <div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+    </div>
+    <main>
+      <section>
+        <div>
+          <h2>Predições</h2>
+          <p>Escolha a engine de predição adequada para a sua análise</p>
+
+          <ul class="engines-list">
+            <li>
+              <a target="_blank" href="locked-page.html">
+                <img src="./assets/cp.png" alt="" />
+              </a>
+            </li>
+
+            <li>
+              <a target="_blank" href="engine-mama.html">
+                <img src="./assets/cm.png" alt="" />
+              </a>
+            </li>
+
+            <li>
+              <a target="_blank" href="locked-page.html">
+                <img src="./assets/cb.png" alt="" />
+              </a>
+            </li>
+
+            <li>
+              <a target="_blank" href="page-locked-perso-gen.html">
+                <img src="./assets/cg.png" alt="" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <div>
+          <h2>Documentação</h2>
+          <p>
+            Saiba mais sobre as técnicas empregadas em cada modelo de
+            treinamento
+          </p>
+
+          <ul class="docs-list">
+            <li>
+              <a target="_blank" href="">
+                <img src="./assets/g.png" alt="" />
+              </a>
+            </li>
+
+            <li>
+              <a target="_blank" href="">
+                <img src="./assets/b.png" alt="" />
+              </a>
+            </li>
+
+            <li>
+              <a target="_blank" href="">
+                <img src="./assets/m.png" alt="" />
+              </a>
+            </li>
+
+            <li>
+              <a target="_blank" href="">
+                <img src="./assets/p.png" alt="" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <div>
+          <h2>Se conecte comigo agora mesmo!</h2>
+          <p>Ficaremos felizes em receber o seu feedback</p>
+
+          <ul class="social-list">
+            <li>
+              <a target="_blank" href="falecomigo@auroracm.tech">
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 32 32"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z"
+                    stroke="#00856F"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M22 6L12 13L2 6"
+                    stroke="#00856F"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
